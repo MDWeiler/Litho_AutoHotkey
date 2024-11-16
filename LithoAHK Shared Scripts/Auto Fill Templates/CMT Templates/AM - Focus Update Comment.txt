@@ -1,0 +1,8 @@
+| 
+| Using the LotID from the clipboard create the comment for the
+|   the Reticle Settings table in AM when Focus is updated based on an EF
+
+| End of Line Sequence | {shift}
+| Use Paste Function | FALSE
+
+%A_YYYY%%A_MM%%A_DD%{space}{-}{space}%LotID%

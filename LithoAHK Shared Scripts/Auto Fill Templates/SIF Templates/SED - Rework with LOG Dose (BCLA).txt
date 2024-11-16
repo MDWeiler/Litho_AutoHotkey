@@ -1,0 +1,51 @@
+SIF Template Name:
+LITHO 1272 SED BCLA SIF
+
+Requestor Instructions:
+Run POR except with a LOG:Dose based on previous CDs
+
+Module Owner Instructions:
+
+
+Engineering Field Instructions:
+
+
+SignOff Instructions:
+
+
+Approval Comments:
+Approved _%MyInitials%_
+
+SIF Options
+[_] RnU Required
+[_] SignOut Required
+[X] Enable Save As Approved
+[X] Recipe Download
+[X] Prelook SIF Recipe
+
+Engineering Fields
+[_] All Entities
+|Entity       | %Scanner%
+|Rwk Behavior | Pending
+|Rwk Contact  | Litho Patterning ET
+
+Recipe Fields
+[_] RCT
+|Recipe      | AM
+|SIF Type    | BCLA
+|Gate Qual   | FALSE
+|Chem Qual   | FALSE
+|Dose        | LOG:%Exposure%
+|Dose Delta  | 
+|Focus       | 
+|Focus Delta | 
+|xTilt       | 
+|yTilt       | 
+|Reticle     | %Reticle%
+|SPR WIPA    | 
+|SCNR Align  | 
+|SRC         | 
+|Reg Deltas  | 
+|SIF Input   | 
+|Pilot       | 
+|LCA Flag    | SKIP

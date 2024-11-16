@@ -1,0 +1,52 @@
+Directions for AutoHotkey SIF Templates
+     Reminders:
+	1) The file extention has to be AST to be included in the UI
+	2) Missing\empty sections or lines will be skipped
+	3) Use [BLANK] for sections or lines you want cleared
+	4) Within the Recipe and Engineering sections 
+	     any text between pipes at the start of the line will be ignored
+		Example: |Entity | SNQ02
+		    |Entity | will be ignored and only SNQ02 will be used
+
+     Variables:
+	         		%Scanner%
+				%Reticle%
+	%CDSEMrecipe%		%ScannerRecipe%
+	%CDSEMwfrCount%		%AGILE%
+
+	%LotID% 		%FocusCenter%	%Exposure%
+	%Lot7ID%		%FocusSteps%	%ExposureSteps%
+				%FocusDelta%	%ExposureDelta%
+
+SIF Template Name:
+
+
+Requestor Instructions:
+
+
+Module Owner Instructions:
+
+
+Engineering Field Instructions:
+
+
+SignOff Instructions:
+
+
+Approval Comments:
+
+
+SIF Options
+[_] RnU Required
+[_] SignOut Required
+[X] Enable Save As Approved
+[X] Recipe Download
+[_] Prelook SIF Recipe
+
+Engineering Fields
+[_] All Entities
+|Entity  | %Scanner%
+Recipe Fields
+[_] RCT
+|Recipe      | %Recipe%
+|LCA Flag    | SKIP

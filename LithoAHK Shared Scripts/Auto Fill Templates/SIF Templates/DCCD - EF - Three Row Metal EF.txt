@@ -1,0 +1,44 @@
+SIF Template Name:
+LITHO 12XX CDSEM EF SIF
+
+Requestor Instructions:
+Metro ROC: Page the Litho Patterning ET to roll up this EF
+
+Module Owner Instructions:
+LET: Plot EF using [FOCUS] as the focus structure. Get processing conditions from operation [SEDoper] ([Layer]). For Nikon EFs include DTLFM.
+LET: Email Layer Owners that the EF (include Lot ID) is ready for review (Page the OnCall for HB1, 2 or 3)
+
+Engineering Field Instructions:
+[BLANK]
+
+SignOff Instructions:
+LET: If EF data is valid then send to rework, otherwise HOLD for Layer Owner review.
+LET: During rework:
+1) Remove all INSTs and SIFs
+2) Add an SED SIF to run on the same tool as Mom
+3) Update Scanner Dedication Rework Attribute to Match SIF
+4) Add a DCCD PROC_Thru SIF
+
+Approval Comments:
+Approved _%MyInitials%_
+
+SIF Options
+[_] RnU Required
+[X] SignOut Required
+[X] Enable Save As Approved
+[X] Recipe Download
+[X] Prelook SIF Recipe
+
+Engineering Fields
+[X] All Entities
+|Entity  | ALL
+Recipe Fields
+|Recipe      | AM
+|SPC         | NO
+|Recipe      | %CDSEMclass%/%CDSEMrecipe%
+|Wafers      | LOWEST2
+|ChipShift   | 0,0
+|SIF Type    | EF
+|HOLD Lot    | TRUE
+|Clear Att25 | FALSE
+|Contact     | LithoPatterningET@RF3.Intel.com

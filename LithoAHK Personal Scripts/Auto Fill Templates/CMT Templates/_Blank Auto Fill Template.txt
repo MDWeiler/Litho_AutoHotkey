@@ -1,0 +1,31 @@
+| Directions for AutoHotkey Auto Fill Templates
+|     Reminders:
+|	1) The file extention has to be AFT to be included in the UI
+|	2) Missing\empty lines will be skipped
+|	3) Use [BLANK] for blank lines you want to type
+|       4) Text within two | (Pipes) is ignored
+|	5) Special Tags - Optional
+|		| End of Line Sequence | - Default is {enter}
+|			This will be the keys pressed at the end of every line
+|		| Use Paste Function | - Default is FALSE
+|			Paste text insted of sending text
+|		| EOL Pause | - Default is None or 0
+|			This is the pause in milliseconds at the end of each line AFTER the End of Line Sequence is executed
+|		| Key Pause | - Default is "Default" and will use current AutoHotkey Default SetKeyDelay setting (10ms)
+|			This is the pause in milliseconds between key presses
+|		| Mouse Pause |  - Default is "Default" and will use current AutoHotkey Default SetMouseDelay setting (10)
+|			This is the pause between mouse movements and clicks - Larger numbers slow the mouse movement
+|		| Pause | X - will Pause for X milliseconds
+|	6) Variables need to be enclosed in %s (example: %Scanner%) and they are NOT case sensitive
+|	7) If you want to use the % sign it needs a ` before it (example: 100`%) 
+|	8) Lines cannot containg a single character, if you need to send a single character start the line with a space - The space will be ignored and just the character will be sent
+
+| Template Title: Blank Template
+
+| End of Line Sequence | {enter}
+| Use Paste Function | FALSE
+| EOL Pause | None
+| Key Pause | Default
+| Mouse Pause | Default
+
+Blank Auto Fill Template Test

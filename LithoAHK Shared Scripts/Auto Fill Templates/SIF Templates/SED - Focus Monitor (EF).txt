@@ -1,0 +1,46 @@
+SIF Template Name:
+LITHO 12XX SED EXPO-FOCUS SIF
+
+Requestor Instructions:
+This is a Focus Monitor EF; escalate to Layer Owner, per Calling Tree, if there are any issues.
+
+Module Owner Instructions:
+%ModuleOwnerInst%
+
+Approval Comments:
+Approved _%MyInitials%_
+
+SIF Options
+[_] RnU Required
+[_] SignOut Required
+[X] Enable Save As Approved
+[X] Recipe Download
+[X] Prelook SIF Recipe
+
+Engineering Fields
+[_] All Entities
+|Entity       | %Scanner%
+|Rwk Behavior | Remove
+|Rwk Contact  | 
+
+Recipe Fields
+[_] RCT
+|Recipe       | 
+|SIF Type     | 
+|Exp Mode     | 
+|Gate Qual    | %GateQual%
+|Chem Qual    | %ChemQual%
+|Dose         | %Exposure%
+|Dose Steps   | %ExposureSteps%
+|Focus        | %FocusCenter%
+|Focus Steps  | %FocusSteps%
+|xTilt        | %xTilt%
+|yTilt        | %yTilt%
+|Reticle      | %Reticle%
+|SPR WIPA     | %SPR%
+|SCNR Align   | %SCNRalign%
+|SRC          | %SRC%
+|SIF Input    | %SIFinput%
+|Pilot        | %Pilot%
+|LCA Flag     | SKIP
+|LookAheadDLP |

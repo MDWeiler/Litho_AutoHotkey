@@ -1,0 +1,51 @@
+SIF Template Name:
+LITHO 1272 SED BCLA SIF
+
+Requestor Instructions:
+Small lots and HBs can run with OVRD when LCA is ALHC
+
+Module Owner Instructions:
+Run POR with OVRD for LCA Flag
+
+Engineering Field Instructions:
+
+
+SignOff Instructions:
+
+
+Approval Comments:
+Approved _%MyInitials%_
+
+SIF Options
+[_] RnU Required
+[_] SignOut Required
+[X] Enable Save As Approved
+[X] Recipe Download
+[X] Prelook SIF Recipe
+
+Engineering Fields
+[_] All Entities
+|Entity       | %Scanner%
+|Rwk Behavior | Approve
+|Rwk Contact  | Litho Patterning ET
+
+Recipe Fields
+[_] RCT
+|Recipe      | AM
+|SIF Type    | BCLA
+|Gate Qual   | TRUE
+|Chem Qual   | FALSE
+|Dose        | 
+|Dose Delta  | 
+|Focus       | 
+|Focus Delta | 
+|xTilt       | 
+|yTilt       | 
+|Reticle     | 
+|SPR WIPA    | 
+|SCNR Align  | 
+|SRC         | 
+|Reg Deltas  | 
+|SIF Input   | 
+|Pilot       | 
+|LCA Flag    | OVRD,LAHD,Y

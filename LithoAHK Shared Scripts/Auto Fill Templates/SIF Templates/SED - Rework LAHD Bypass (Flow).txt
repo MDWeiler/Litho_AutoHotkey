@@ -1,0 +1,27 @@
+SIF Template Name:
+LITHO 1272 SED FLOW SIF
+
+Requestor Instructions:
+Run this rework POR with SKIP to bypass the LAHD in LCA
+
+Module Owner Instructions:
+
+Approval Comments:
+Approved _%MyInitials%_
+
+SIF Options
+[X] Enable Save As Approved
+[X] Prelook SIF Recipe
+
+Engineering Fields
+|Entity       | %Scanner%
+|Rwk Behavior | Remove
+|Rwk Contact  | Litho Patterning ET
+
+Recipe Fields
+| Recipe   | AM 
+| Type     | FLOW
+| Version  | 2
+| Gate     | FALSE
+| Reticle  | %Reticle%
+| LCA Flag | SKIP

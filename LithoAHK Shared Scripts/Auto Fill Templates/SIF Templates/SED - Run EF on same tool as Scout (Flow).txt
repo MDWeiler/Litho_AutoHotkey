@@ -1,0 +1,28 @@
+SIF Template Name:
+LITHO 1272 SED FLOW SIF
+
+Requestor Instructions:
+Reworked NPI Scout EF - Run on the same tool as Scout
+
+Module Owner Instructions:
+Run POR with SKIP - If %Scanner% is down then this lot will wait for the scanner to come back up
+
+Approval Comments:
+Approved _%MyInitials%_
+
+SIF Options
+[X] Enable Save As Approved
+[X] Prelook SIF Recipe
+
+Engineering Fields
+|Entity       | %Scanner%
+|Rwk Behavior | Approve
+|Rwk Contact  | Litho Patterning ET
+
+Recipe Fields
+| Recipe   | AM 
+| Type     | FLOW
+| Version  | 2
+| Gate     | FALSE
+| Reticle  | 
+| LCA Flag | SKIP

@@ -1,0 +1,25 @@
+| Directions for AutoHotkey Auto Fill Templates
+|     Reminders:
+|	1) The file extention has to be AFT to be included in the UI
+|	2) Missing\empty lines will be skipped
+|	3) Use [BLANK] for blank lines you want
+|       4) Text within two | (Pipes) is ignored
+|	5) Special Tags
+|		| End of Line Sequence | - Default is {enter} - This will be the keys pressed
+|		| Use Paste Function | - Default is FALSE
+|			Paste text insted of sending text
+|       6) Variables need to be enclosed in %s (example: %Scanner%) and they are NOT case sensitive
+|       7) If you want to use the % sign it needs a ` before it (example: 100`%) 
+| 
+
+| LCA - CA Filters
+
+| End of Line Sequence | {tab}
+| Use Paste Function | FALSE
+
+| RowID      | {shift}
+| Scanner    | {end}{Shift Down}{Home}{Shift Up}{Delete}%Scanner%
+| Product    | {end}{Shift Down}{Home}{Shift Up}{Delete}
+| Operation  | {end}{Shift Down}{Home}{Shift Up}{Delete}
+| Reticle    | {end}{Shift Down}{Home}{Shift Up}{Delete}%Reticle%
+| Route      | {end}{Shift Down}{Home}{Shift Up}{Delete}

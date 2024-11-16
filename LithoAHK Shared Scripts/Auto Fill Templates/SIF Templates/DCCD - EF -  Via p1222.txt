@@ -1,0 +1,48 @@
+SIF Template Name:
+LITHO 12XX CDSEM EF SIF
+
+Requestor Instructions:
+Focus Monitor Project
+
+Module Owner Instructions:
+1) Complete EF measurements per SIF
+2) Place lot on HOLD for Layer Owner review
+3) Email D1 Litho 1222 Wet VA Layer Owners
+   that this EF is ready for review.
+   Please Include Lot ID, Product and Layer.
+If a HB1/2/3 also page Litho 1222 SAR/SNR VA Lyr
+   that this Hot Box EF is ready for review.
+
+Engineering Field Instructions:
+[BLANK]
+
+SignOff Instructions:
+!! This is an EF and ALWAYS requires rework !!
+Layer Owner complete POR follow up
+Reminders:
+1) Add PROC-Thru SIF at DCCD for 7795 resist EFs 
+2) Update the Scanner Dedication Rework Attribute
+
+Approval Comments:
+Approved _%MyInitials%_
+
+SIF Options
+[_] RnU Required
+[X] SignOut Required
+[X] Enable Save As Approved
+[X] Recipe Download
+[X] Prelook SIF Recipe
+
+Engineering Fields
+[X] All Entities
+|Entity  | ALL
+Recipe Fields
+|Recipe      | AM
+|SPC         | NO
+|Recipe      | %CDSEMclass%/%CDSEMrecipe%
+|Wafers      | LOWEST2
+|ChipShift   | 0,0
+|SIF Type    | EF
+|HOLD Lot    | TRUE
+|Clear Att25 | %Scanner%
+|Contact     | D1.Litho.1222.Wet.VA.Layer.Owners@Intel.com
