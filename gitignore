@@ -1,12 +1,28 @@
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
+# The Ignore Code uses Linux style files paths
+#    You will need to replace \ with /
+
+# Ignore Visual Studio Code generate files
+/.vscode
+*.code-workspace
 
 # Local History for Visual Studio Code
 .history/
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# Ignore the Following Directories
+#      Snapshot - A copy of all files within the project directory
+#      Resource Files - These are notes and other miscellaneous files related to the project
+/Snapshot
+/Resource Files
+
+# Ignore the Index.html file
+*Index.html
+
+# If you need to ignore a file that is already being tracked use the following:
+# git rm --cached -r -f .
+# This will reset the files being tracked
+# git add . will add them all back except those now being ignored
+
+# The plan is to use the local git repository as my active LithoAHK
