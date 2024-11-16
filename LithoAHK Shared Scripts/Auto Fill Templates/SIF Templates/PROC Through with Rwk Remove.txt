@@ -2,7 +2,7 @@ SIF Template Name:
 LITHO METRO PROC THROUGH
 
 Requestor Instructions:
-This is an EF and does not require OCD measurement
+This lot does not require measurement
 
 Approval Comments:
 Approved _%MyInitials%_

@@ -1,0 +1,39 @@
+SIF Template Name:
+LITHO 12XX CDSEM EF SIF
+
+Requestor Instructions:
+Focus Monitor Project
+
+Module Owner Instructions:
+After measurements are complete rework wafers
+
+Engineering Field Instructions:
+{space}
+
+SignOff Instructions:
+%SignOutInst%
+
+Approval Comments:
+Approved _%MyInitials%_
+
+SIF Options
+[_] RnU Required
+[X] SignOut Required
+[X] Enable Save As Approved
+[X] Recipe Download
+[X] Prelook SIF Recipe
+
+Engineering Fields
+[X] All Entities
+|Entity  | ALL
+Recipe Fields
+|Recipe      | AM
+|SPC         | NO
+|Recipe      | 
+|Wafers      | LOWEST2
+|ChipShift   | 0,0
+|SIF Type    | EF
+|HOLD Lot    | TRUE
+|Clear Att25 | %Scanner%
+|Contact     | %IntelEmail%
+|Comment     | %DispoComment%

@@ -28,8 +28,7 @@ Recipe Fields
 |Recipe       | 
 |SIF Type     | 
 |Exp Mode     | 
-|Gate Qual    | %GateQual%
-|Chem Qual    | %ChemQual%
+|Gate Qual    | RET
 |Dose         | %Exposure%
 |Dose Steps   | %ExposureSteps%
 |Focus        | %FocusCenter%
